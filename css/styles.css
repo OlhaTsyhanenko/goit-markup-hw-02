@@ -119,11 +119,18 @@ body {
 }
 
 .btn.main {
+  color: var(--text-color-white);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+}
+
+.btn.main:hover,
+.btn.main:focus {
+  background-color: #188ce8;
 }
 
 .btn.portfolio {
